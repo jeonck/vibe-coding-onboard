@@ -102,7 +102,7 @@ async function performSearch(searchTerm) {
     }
 
     // Search in all markdown files for the new vibe coding sections
-    const sections = ['introduction', 'culture', 'setup', 'development', 'collaboration', 'claude-best-practices', 'resources', 'faq'];
+    const sections = ['introduction', 'culture', 'setup', 'development', 'collaboration', 'claude-best-practices', 'claude-settings', 'claude-commands', 'resources', 'faq'];
     let found = false;
 
     for (const section of sections) {
