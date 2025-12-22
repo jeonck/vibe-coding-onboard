@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibe Coding Onboarding - Developer Onboarding Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/marked@5.1.1/lib/marked.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <h1>Vibe Coding Onboarding</h1>
+            <p>A comprehensive guide for new developers to join our coding community and culture</p>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container">
+            <div class="nav-content">
+                <ul class="nav-links">
+                    <li><a href="#introduction" class="nav-link" data-section="introduction">Introduction</a></li>
+                    <li><a href="#culture" class="nav-link" data-section="culture">Culture</a></li>
+                    <li><a href="#setup" class="nav-link" data-section="setup">Environment Setup</a></li>
+                    <li><a href="#development" class="nav-link" data-section="development">Development Practices</a></li>
+                    <li><a href="#collaboration" class="nav-link" data-section="collaboration">Collaboration</a></li>
+                    <li><a href="#claude-best-practices" class="nav-link" data-section="claude-best-practices">Claude Code</a></li>
+                    <li><a href="#resources" class="nav-link" data-section="resources">Resources</a></li>
+                    <li><a href="#faq" class="nav-link" data-section="faq">FAQ</a></li>
+                </ul>
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Search for coding practices, tools, Claude Code, or resources...">
+                    <button id="search-button">Search</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <div id="content-container">
+                <!-- Content will be loaded here dynamically -->
+                <div id="loading" class="loading">Loading...</div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>© 2025 Vibe Coding Onboarding - A welcoming guide for developers to join our coding culture</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
